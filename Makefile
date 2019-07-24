@@ -21,7 +21,7 @@ VERSION ?= v0.1.0
 GOOS ?= $(shell go env GOOS)
 GOARCH ?= $(shell go env GOARCH)
 BUILD_DIR ?= ./out
-DOCKER_IMAGE_NAME ?= mx3d/configmap-watch
+DOCKER_IMAGE_NAME ?= hub.global.cloud.sap/monsoon/configmap-watch
 DOCKER_IMAGE_TAG ?= $(VERSION)
 
 LDFLAGS := -s -w -extldflags '-static'
